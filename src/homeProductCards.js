@@ -26,9 +26,7 @@ export const showProductContainer = (products) => {
       price * 4
     }`;
 
-    const stockElement = productClone.querySelector(".stockElement");
-
-    stockElement.addEventListener("click", (event) => {
+    productClone.querySelector(".stockElement").addEventListener("click", (event) => {
       homeQuantityToggle(event, id, stock);
     });
 
