@@ -3,7 +3,7 @@ export const homeQuantityToggle = (event, id, stock) => {
   // console.log(currentCardElement);
 
   const productQuantity = currentCardElement.querySelector(".productQuantity");
-  // console.log(productQuantity)
+  console.log(productQuantity)
 
   let quantity = parseInt(productQuantity.getAttribute("data-quantity")) || 1;
 
